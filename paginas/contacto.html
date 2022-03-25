@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trippelheim Hidromiel Artesanal</title>
+	<link rel="stylesheet" href="../css/style.css">
+
+	<link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body class="contenedor">
+	<header class="encabezado" id="header">
+		<nav>
+		<a href="../index.html">
+			<img src="../img/isologotipo.svg" alt="Isologotipo de Trippelheim" id="isologotipo" class="animate__animated animate__fadeInLeft">
+		</a>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="estilos.html">Estilos</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="promociones.html">Promociones</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<img src="../img/header.jpg" alt="Hidromiel Artesanal" width="100%">
+	</header>
+	<main class="form" id="main">
+		<section>
+			<article>
+			<h1 class="textCenter animate__animated animate__fadeInDown">Contactanos</h1>
+			<!--Inicia form-->
+			    <form action="">
+				    <fieldset>
+					    <legend>Datos Personales</legend>
+     				    <label for="nombre">Nombre y Apellido</label>
+			    	    <input type="text" placeholder="Leandro Sancrica" name="nombre" id="nombre">
+			    	    <br>
+			    	    <label for="genero">Género</label>
+			    	    <br>
+			    	    <label for="masculino">Masc</label>
+			    	    <input type="radio" name="genero" id="masculino" value="masculino">
+			    	    <label for="femenino">Fem</label>
+			    	    <input type="radio" name="genero" id="femenino" value="femenino">
+			    	    <label for="otro">Otro</label>
+			    	    <input type="radio" name="genero" id="otro" value="otro">
+			    	    <br>
+		    		    <label for="email">Email</label>
+		    		    <input type="email" placeholder="nombre@email.com" name="email" id="email">
+		    		    <br>
+		    		    <label for="edad">Fecha de Nacimiento</label>
+		    		    <input type="date" placeholder="dd/mm/aaaa" name="edad" id="edad">
+		    		    <br>
+		    		    <label for="whatsapp">WhatsApp</label>
+		    		    <input type="tel" placeholder="1155557777" name="whatsapp" id="whatsapp">
+		    		    <br>
+		    		    <label for="localidad">Localidad</label>
+		    		    <select name="localidad" id="localidad">
+		    		    	<option selected disabled ="">Selecciona una opción</option>
+		    		    	<option value="CABA">CABA</option>
+		    		    	<option value="Zona Norte">Zona Norte</option>
+		    		    	<option value="Zona Sur">Zona Sur</option>
+		    		    	<option value="Interior">Interior</option>
+		    		    </select>
+			        </fieldset>
+			        <label>Deseo recibir Newsletters</label>
+                    <input type="checkbox">
+                    <br>
+			    	<label for="mensaje">Dejanos tu Mensaje</label>
+			    	<br>
+			    	<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+			    	<br>
+			    	<input type="reset" value="Cancelar">
+			    	<input type="submit" value="Enviar">
+			    </form>
+		    </article>
+			<!--Cierra form-->
+			<article class="textCenter">
+				<legend>Punto de Entrega</legend>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.0276633136955!2d-58.69745778423649!3d-34.4514456569651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca24b972b407f%3A0x24a2a47cad2682b9!2sChesterton%203345%2C%20B1610%20Ricardo%20Rojas%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1647544976716!5m2!1ses-419!2sar" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</article>
+		</section>
+	</main>
+	<footer class="pie textCenter bgBlack" id="footer">
+		<div class="wow animate__animated animate__fadeInUp">
+			<h3>Redes Sociales</h3>
+			<a href="https://instagram.com/trippelheim" target="_blank">
+				<img src="../img/instagram.png" alt="Instagram Trippelheim">
+			</a>
+			<a href="https://facebook.com/Trippelheim" target="_blank">
+				<img src="../img/facebook.png" alt="Facebook Trippelheim">
+			</a>
+		</div>
+	</footer>
+
+	<script src="../js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
+
+</body>
+</html>
